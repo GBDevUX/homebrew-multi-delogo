@@ -9,7 +9,7 @@ class Goocanvasmm < Formula
   depends_on "goocanvas"
   depends_on "gtkmm3"
 
-  needs :cxx11
+  #needs :cxx11
 
   def install
     ENV.cxx11
